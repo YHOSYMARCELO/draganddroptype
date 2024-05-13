@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.app_container{
+    font-family: "Roboto", sans-serif; ;
+}
+.image_logo{
+    width: 100px;
+    height: 30px;
+}
+.lista_ul li{
+    list-style: none;
+    color:  #000; 
+}
+.lista_ul li:nth-child(2){
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.lista_ul{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: #000;
+}
+.contenedor_general{
+    display: flex;
+    justify-content: space-between
+}
+.cards{
+    width: 300px;
+}
+.contenedor_smalls{
+    width: 300px;
+}
+.content_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
